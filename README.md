@@ -15,12 +15,31 @@ Los condensadores puedes soldarlos en el orden que quieras, se puede usar tambie
   los valores de los condensadores SMD son:
 </p>
 
+
+<h1>DIY</h1>
+Si alguien quiere recrearlo por su cuenta sin PCB estos son los pines
+
+```
+byte sck = 4;   // GPIO 4
+byte miso = 5;  // GPIO 5
+byte mosi = 6; // GPIO 6
+byte ss = 7;   // GPIO 7
+int gdo0 = 0;  // GPIO 0
+int gdo2 = 1;   // GPIO 1
+```
+Los pines corresponden a los GPIOS del ESP32 c3 supermini
+Estos son los del CC1101:
+
+<img width="300" height="300" alt="having-cc1101-issues-v0-e9lninwf098d1" src="https://github.com/user-attachments/assets/47499576-566f-4c05-8c62-67237d24e26a" />
+
+
 <h1>CONECTAR</h1>
 Para conectar puedes usar cualquier terminal en serie, en PC puedes usar putty y en android SerialUSB terminal
 
 <h1>COMANDOS</h1>
 
-```setmodulation <mode>         // set modulation mode. 0 = 2-FSK, 1 = GFSK, 2 = ASK/OOK, 3 = 4-FSK, 4 = MSK. 
+```
+setmodulation <mode>         // set modulation mode. 0 = 2-FSK, 1 = GFSK, 2 = ASK/OOK, 3 = 4-FSK, 4 = MSK. 
 
 setmhz <frequency>           // Here you can set your basic frequency. default = 433.92).The cc1101 can: 300-348 MHZ, 387-464MHZ and 779-928MHZ.
 
