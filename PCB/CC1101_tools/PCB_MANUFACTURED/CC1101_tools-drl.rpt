@@ -1,0 +1,23 @@
+Drill report for CC1101_tools.kicad_pcb
+Created on 2026-07-05T04:42:02
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'CC1101_tools-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.840mm  0.0331"  (16 holes))
+    T2  0.900mm  0.0354"  (8 holes))
+
+    Total plated holes count 24
+
+
+Drill file 'CC1101_tools-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
