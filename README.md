@@ -3,8 +3,8 @@ La PCB es mia, el codigo es de:
 based on great SmartRC library by Little_S@tan
 
 <h1>MATERIALES</h1>
-- x1 16v 100nF
-- x1 16v 1uF
+- x1 16v 100nF <br>
+- x1 16v 1uF <br>
 - x1 ESP32 C3 supermini
 
 Los condensadores puedes soldarlos en el orden que quieras, se puede usar tambien sin condensador pero conviene soldarlos para filtrar interferencias.
