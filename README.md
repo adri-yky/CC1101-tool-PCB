@@ -19,8 +19,8 @@ Los condensadores puedes soldarlos en el orden que quieras, se puede usar tambie
 Para conectar puedes usar cualquier terminal en serie, en PC puedes usar putty y en android SerialUSB terminal
 
 <h1>COMANDOS</h1>
-'''
-setmodulation <mode>         // set modulation mode. 0 = 2-FSK, 1 = GFSK, 2 = ASK/OOK, 3 = 4-FSK, 4 = MSK. 
+
+```setmodulation <mode>         // set modulation mode. 0 = 2-FSK, 1 = GFSK, 2 = ASK/OOK, 3 = 4-FSK, 4 = MSK. 
 
 setmhz <frequency>           // Here you can set your basic frequency. default = 433.92).The cc1101 can: 300-348 MHZ, 387-464MHZ and 779-928MHZ.
 
@@ -112,8 +112,8 @@ chat                         // switching device into chat mode
 
 x                            // Stops activities like jamming/receiving/recording packets
 
-init                         // Restarts CC1101 board with default parameters 
-'''
+init                         // Restarts CC1101 board with default parameters
+```
 
 
 <h1>IMAGENES</h1>
