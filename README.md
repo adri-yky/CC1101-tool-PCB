@@ -11,8 +11,8 @@ Los condensadores puedes soldarlos en el orden que quieras, se puede usar tambie
 
 <h1 style="color: red; font-weight: 800;">IMPORTANTE!!</h1>
 <p style="color: red;">
-  Vale, la plaquita esta guay lo unico que tengo que arreglar los condensadores que hay porque falla el tamaño de los SMD
-  los valores de los condensadores SMD son:
+  Vale, la plaquita esta guay lo unico que tengo que arreglar los condensadores que hay porque falla el tamaño de los SMD (Cosa que arreglare en un futuro)
+  El tamaño deberia ser 0402 pero no es correcto del todo
 </p>
 
 
